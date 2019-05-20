@@ -1,0 +1,85 @@
+
+table,tr,th,td{
+
+  text-align: center;
+  border-radius: 1em;
+  padding: 0.6em;
+  font-family: Times, Times New Roman, Georgia, serif ,Bamini,Catamaran, sans-serif;
+  font-size: 1em;
+  table-layout:fixed;
+  cellspacing="1";
+  cellpadding="2";
+  border-collapse: collapse;
+  align:center;
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 2em;
+}
+
+.button4 {background-color: #e7e7e7; color: black;}
+#customers {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+table,th,td,tr{
+  padding:1.2em;
+text-align: center;
+}
+
+label{
+color:#3d335e;
+font-size: 1.5em;
+font-style:oblique;
+font-weight: bold;
+font-family: Times New Roman;
+}
+label1{
+color:#050505;
+  font-size: 1.6em;
+  font-style: normal;
+  font-family: Times, Times New Roman,Bamini;
+  font-style: oblique;
+  font-weight: bold;
+}
+
+textarea {
+  max-width: 100%;
+
+table.d {
+    table-layout: fixed;
+    width: 100%;
+}
+@font-face
+{
+    font-family: myTamilFont;
+    src: url(Bamini.ttf);
+}

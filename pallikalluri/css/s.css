@@ -1,0 +1,106 @@
+.invalid { border-color: red; }
+
+#error1 { color: red }
+
+@font-face {
+  font-family: Bamini;
+  src:url(Bamini.TTF);
+}
+
+input [type=text]{
+  font-family: Bamini;
+  font-size: 1.1em;
+  font-style:normal;
+}
+label{
+color:#3d335e;
+font-size: 1.1em;
+font-style: normal;
+font-family: Times, Times New Roman, Georgia, serif ,Bamini,'Catamaran', sans-serif;
+}
+label1{
+color:#050505;
+  font-size: 1.6em;
+  font-style: normal;
+  font-family: Times, Times New Roman, Georgia, seriff,Bamini,'Catamaran', sans-serif;
+  font-style: oblique;
+  font-weight: bold;
+}
+label2{
+color:#050505;
+  font-size: 1.3em;
+  font-style: normal;
+  font-family: Times, Times New Roman, Georgia, seriff,Bamini,Catamaran, sans-serif;
+  font-style: oblique;
+  font-weight: bold;
+}
+label3{
+color:#e0562c;
+font-size: 1.1em;
+font-style: normal;
+font-family: Times, Times New Roman, Georgia, serif ,Bamini,'Catamaran', sans-serif;
+}
+#mySidenav a {
+   position: fixed;
+    left: -20px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    font-family: Times New Roman;
+}
+
+#mySidenav a:hover {
+  left: 6;
+}
+
+#school {
+  top: 120px;
+  background-color: #4CAF50;
+}
+
+#college {
+  top: 200px;
+  background-color: #2196F3;
+}
+.blinking{
+	animation:blinkingText 4s infinite;
+}
+@keyframes blinkingText{
+	0%{		color: #5b2ecc;	}
+	49%{	color: #34cc2d;	}
+	50%{	color: #ed1004;	}
+	99%{	color:#ed04e1;	}
+	100%{	color: #2db6cc;	}
+}
+#img div{
+  align:right;
+}
+@font-face {
+  font-family: Bamini;
+  src=url(Bamini.ttf);
+  font-family: 'Catamaran', sans-serif;
+font-family: 'Kavivanar', cursive;
+}
+.container
+{
+  width:960px
++clearefix
+}
+@media (max-width:960px)
+.container
+width:auto
+.column{
+float:none;
+width:auto;
+}
+tabel,tr{
+  display: :inline-block;
+  width:30%;
+  margin:1%;
+  height:50px;
+  min-width:150px;
+}
